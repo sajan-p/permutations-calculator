@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>permuations calcyulator no ways!!!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="question-container">
+      <div class="question">
+        <div class="question-number"><b>2.</b></div>
+        <div class="question-words">
+          <i>(6 marks)</i> Consider your first name. Find the number of
+          permutations of all the letters in your first name that satisfy the
+          following conditions. Place all of your work and steps in the chart
+          below.
+          <b>PICK THREE PARTS ONLY [AT LEAST ONE PART FROM (D) (E) OR (F)]</b>
+        </div>
+      </div>
+    </div>
+
+    <div class="response">
+      <div class="name-table">
+        <div class="name-input">
+          <h3 class="first-name-text">Write your first name:</h3>
+          <input type="text" class="first-name-input" />
+          <button class="name-input-button">Submit</button>
+        </div>
+
+        <div id="response-content"></div>
+      </div>
+
+      <div class="solutions">
+        <div class="solution">
+          <p class="question-title">
+            <b>a. </b>The letters can be in any order.
+          </p>
+
+          <div id="a-solution"></div>
+        </div>
+
+        <div class="solution right">
+          <p class="question-title">
+            <b>b. </b>The second letter of your name must stay in the second
+            spot.
+          </p>
+        </div>
+
+        <div class="solution">
+          <p class="question-title">
+            <b>c. </b>The last two letters of your name must remain
+            side-by-side, in any location of the arranagement.
+          </p>
+        </div>
+
+        <div class="solution right">
+          <p class="question-title">
+            <b>d. </b>The last two letters of your name are separated by only
+            one letter, in any location of the arrangement.
+          </p>
+        </div>
+
+        <div class="solution">
+          <p class="question-title">
+            <b>e. </b>The first two letters of your name cannot be side by-side.
+          </p>
+        </div>
+
+        <div class="solution right">
+          <p class="question-title">
+            <b>f. </b>The last two letters of your name must be side-by-side
+            while the first two letters of your name must be separated.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="app.js"></script>
+</html>
